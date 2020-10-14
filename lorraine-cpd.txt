@@ -4,4 +4,4 @@ Module / Session - date
 
 Reflection
  
-In today's session, we were introduced to GIT / GITHUB. We were shown the advantages of using VS code. We installed an extension onto VS code. We have done an introductory demonstration of how to commit changes in files to a repo that we cloned onto our machine.
+In today's session, I downloaded Gitgub desktop and reset my passwaord to Git. we were introduced to Git and Github. We were shown the advantages of using VS code. We installed an extension onto VS code. We have done an introductory demonstration of how to commit changes in files to a repo that we cloned onto our machine.
