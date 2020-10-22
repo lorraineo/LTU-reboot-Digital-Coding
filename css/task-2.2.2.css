@@ -10,6 +10,13 @@ h1{
     background-color: darkgoldenrod;
 }
 
+h2{
+    background-color: cyan;
+}
+h3{
+    background-color: fuchsia;
+}
+
 li{
     background-color: darkorchid;
 }
