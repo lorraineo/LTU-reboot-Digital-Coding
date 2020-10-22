@@ -5,3 +5,8 @@ Module / Session - date
 Reflection
  
 In today's session, I downloaded Gitgub desktop and reset my passwaord to Git. we were introduced to Git and Github. We were shown the advantages of using VS code. We installed an extension onto VS code. We have done an introductory demonstration of how to commit changes in files to a repo that we cloned onto our machine.
+
+2.2 22/10/2020
+
+Reflection
+Full speed ahead with CSS. Course becoming more technical which is cool. So finished HTML basics and now moved to CSS. I need to practice more between lessons. I wish Alex told us why stuff are the way they are. Like the CSS syntax for example; why is h1 a selector, background color a property and the particualr color the value.I get it; selector selects what in the html to apply the style to. Property is what style should be applied and value is the value of the style. Course progressing nicely though. Great!
