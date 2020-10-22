@@ -2,6 +2,10 @@ img{
     max-width: 300px;
 }
 
+body{
+    background-color: black;
+}
+
 h1{
     background-color: darkgoldenrod;
 }
