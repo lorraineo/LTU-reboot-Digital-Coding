@@ -4,15 +4,23 @@ img{
 
 h1{
     background-color: darkgoldenrod;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
 }
 
 h2{
     background-color: cyan;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
 }
 h3{
     background-color: fuchsia;
 }
 
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
 li{
     background-color: darkorchid;
 }
