@@ -8,11 +8,12 @@ h1{
     font-size: 80px;
 }
 
-h2{
+./*h2{
     background-color: cyan;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 60px;
 }
+*/
 h3{
     background-color: fuchsia;
 }
