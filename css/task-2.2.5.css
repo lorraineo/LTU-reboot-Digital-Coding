@@ -14,9 +14,11 @@ h1{
     font-size: 60px;
 }
 */
-#h2header {
+
+#myHeader {
     background-color: darkred;
 }
+
 h3{
     background-color: fuchsia;
 }
