@@ -30,6 +30,7 @@ main{
 aside{
     max-width: calc(75% - 50px);
     float: left;
+    border-left: none;
 }
 
 footer{
