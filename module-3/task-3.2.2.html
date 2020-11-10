@@ -8,7 +8,7 @@
 </head>
 <body>
  <header>
- <h1>Javascript task 3.2.1</h1>
+ <h1>Javascript task 3.2.2</h1>
  </header>
  <main>
  <p>To view this task you will need to open the console in developer tools</p>
@@ -19,11 +19,15 @@
  <p>&copy; 2020</p>
  </footer>
  <script>
-     function outputMessage(){
-         console.log('This is a message');
+
+     function output_fullname(firstName, secondName){
+         return firstName + ' ' + secondName
      }
 
-     outputMessage();
+     var strfirstName = 'Lorraine';
+     var strsecondName = 'Olowosuko';
+     var strFullName = output_fullname (strfirstName, strsecondName);
+     console.log(strFullName);
      
  </script>
 
