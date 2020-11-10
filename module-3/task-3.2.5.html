@@ -8,7 +8,7 @@
 </head>
 <body>
  <header>
- <h1>Javascript task 3.2.4</h1>
+ <h1>Javascript task 3.2.5</h1>
  </header>
  <main>
  <p>To view this task you will need to open the console in developer tools</p>
@@ -31,8 +31,14 @@
         }
 
         if (blnValidation){
-            if(temperature < 12){
-                return 'You need to wear a cost';
+            if (temperature < 0){
+            return 'Do not leave the house';
+            }
+            if(temperature < 10){
+                return 'You need to wear a coat and scarf';
+            }
+            if(temperature < 15){
+                return 'You need to wear a coat';
             }
             return 'You don\'t need to wear a coat';
         }
