@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" type="text/css" href="../css/task-3.1.css" />
+ <title>Document</title>
+</head>
+<body>
+ <header>
+ <h1>Javascript task 3.2.2</h1>
+ </header>
+ <main>
+ <p>To view this task you will need to open the console in developer tools</p>
+ </main>
+ <aside>
+ </aside>
+ <footer>
+ <p>&copy; 2020</p>
+ </footer>
+ <script>
+
+    var temperatureInput;
+
+    function wearACoat(temperature){
+
+        blnValidation = true;
+        if(isNaN(temperature)){
+            console.log('Temperature argument must be a number');
+            blnValidation = false;
+        }
+
+        if (blnValidation){
+            if(temperature < 12){
+                return 'You need to wear a cost';
+            }
+            return 'You don\'t need to wear a coat';
+        }
+        else {
+            return;
+        }
+        }
+     
+     temperatureInput = 10;
+
+ </script>
+
+</body>
+</html>
