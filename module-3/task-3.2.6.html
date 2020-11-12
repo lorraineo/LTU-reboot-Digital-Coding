@@ -20,35 +20,12 @@
  </footer>
  <script>
 
-    var temperatureInput;
+    function percentageCalculator(number,percentage){
+        return calculatedPercentage = (number / percentage) * 100;
+    }
 
-    function wearACoat(temperature){
-
-        blnFailedValidation = false;
-        if(isNaN(temperature)){
-            console.log('Temperature argument must be a number');
-            blnFailedValidation = true;
-        }
-
-        if (!blnFailedValidation){
-            if (temperature < 0){
-            return 'Do not leave the house';
-            }
-            if(temperature < 10){
-                return 'You need to wear a coat and scarf';
-            }
-            if(temperature < 15){
-                return 'You need to wear a coat';
-            }
-            return 'You don\'t need to wear a coat';
-        }
-        else {
-            return;
-        }
-        }
-     
-     temperatureInput = 10;
-     console.log(wearACoat(temperatureInput));
+        
+    console.log(percentageCalculator(10, 50);
 
  </script>
 
