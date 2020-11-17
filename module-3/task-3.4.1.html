@@ -8,7 +8,7 @@
 </head>
 <body>
  <header>
- <h1>Javascript task 3.3.3</h1>
+ <h1>Javascript task 3.4.1</h1>
  </header>
  <main>
  <p>To view this task you will need to open the console in developer tools</p>
@@ -20,51 +20,19 @@
  </footer>
  <script>
 
-   
-function calculator(number1,number2,operator){
-        var maths; 
-        switch(operator){
-            case '+':
-            maths = number1 + number2;
-            break;
-
-            case '-':
-            maths = number1 - number2;
-            break;
-
-            case '*':
-            maths = number1 * number2;
-            break;
-
-            case '/':
-            maths = number1 / number2;
-            break;
-
-            case '%':
-            maths = number1 % number2;
-            break;
-        
+        for (var multiplier = 1; multiplier <=12; multiplier++){
+            console.log('This is our '+ multiplier+ ' timestable')
+         for  (
+                 var counter = 1;
+                 counter <=12;
+                 counter++
+         ){
+                 var sum = multiplier * counter;
+                 var strMessage = multiplier + ' x ' + counter + ' = ' + sum;
+                 console.log(strMessage);
+         }
         }
-        return maths;
-}
-         var a = 10;
-         var b = 7;
-         
-         var strMessage = a  + ' + ' + b + ' = ' + calculator(a,b,'+');
-         console.log(strMessage);
-         var strMessage = a  + ' - ' + b + ' = ' + calculator(a,b,'-');
-         console.log(strMessage);
-         var strMessage = a  + ' * ' + b + ' = ' + calculator(a,b,'*');
-         console.log(strMessage);
-         var strMessage = a  + ' / ' + b + ' = ' + calculator(a,b,'/');
-         console.log(strMessage);
-         var strMessage = a  + ' % ' + b + ' = ' + calculator(a,b,'%');
-         console.log(strMessage);
 
-         total = 490;
-         percent = 70;
-         totalPercentage = calculator(percent,calculator(total,100,'/'),'*');
-         console.log(totalPercentage);
  </script>
 
 </body>
