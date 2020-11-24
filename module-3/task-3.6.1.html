@@ -16,6 +16,7 @@
         </div>
  </main>
  <aside>
+        <a id="leedsTrinityLink" href="https://www.leedstrinity.ac.uk/">Leeds Trinity Link</a>
  </aside>
  <footer>
  <p>&copy; 2020</p>
@@ -36,6 +37,13 @@
             console.log(event);
             alert('Hovered Over Image');
         });
+
+        var link = document.getElementById('leedsTrinityLink');
+        link.addEventListener('click',function(event){
+            event.preventDefault();
+            console.log('preventDefault being used');
+        });
+        
  </script>
 
 </body>
