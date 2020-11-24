@@ -43,7 +43,21 @@
             event.preventDefault();
             console.log('preventDefault being used');
         });
-        
+
+        var calculatorButton = document.getElementById('submitCalculator');
+        var fiveTimesValueOutput = document.getElementById('fiveTimesValue');
+        calculatorButton.addEventListener('click',function(event){
+            event.preventDefault();
+            var inputValue = document.getElementById('fiveTimesInput').value;
+            if(isNaN(inputValue) || !inputValue){
+                strMessage = 'Value entered is not a number';
+                fiveTimesValueOutput.innerHTML = strMessage;
+            } else {
+                var sum = inputValue * 5;
+                fiveTimesValueOutput.innerHTML = sum;
+            }
+        })
+
  </script>
 
 </body>
