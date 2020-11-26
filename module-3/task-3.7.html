@@ -74,27 +74,24 @@
  <p>&copy; 2020</p>
  </footer>
  <script>
-       https://www.pexels.com/photo/two-yellow-labrador-retriever-puppies-1108099/ 
-       https://www.pexels.com/photo/white-and-black-panda-on-brown-tree-trunk-4060848/
-       https://www.pexels.com/photo/panda-on-tree-247480/
-       https://www.pexels.com/photo/wood-water-animal-cute-5944716/
- 
-       https://www.pexels.com/photo/brown-and-white-animal-on-brown-wooden-surface-4754846/
-       https://www.pexels.com/photo/dewgong-on-body-of-water-185032/
-       https://www.pexels.com/photo/nature-animal-cute-fur-53510/
-       https://www.pexels.com/photo/sea-bird-beach-water-5411583/
+   
+   //LOOP through all the buttons
+    for (buttonCounter = 0; buttonCounter < buttons.length; buttonCounter++){
+        var currentButton = buttons[buttonCounter];
+        console.log(currentButton);
+    }
 
-
-       https://www.pexels.com/photo/animal-chicken-cockerel-countryside-375510/
-       https://www.pexels.com/photo/selective-focus-photography-of-white-hen-1405930/
-       https://www.pexels.com/photo/beak-blur-chicken-close-up-458825/
-       https://www.pexels.com/photo/brown-hen-near-white-egg-on-nest-195226/
-
-       https://www.pexels.com/photo/close-up-photography-of-tiger-792381/
-       https://www.pexels.com/photo/photo-of-tiger-and-cub-lying-down-on-grass-2541239/
-       https://www.pexels.com/photo/photo-of-tiger-showing-his-fangs-while-lying-on-white-surface-40661/
-       https://www.pexels.com/photo/tiger-standing-on-the-grey-concrete-pavement-162203/
-
+            //addEventListener for a click event
+            currentButton.addEventListener("click", function(){
+                console.log('click')
+                //LOOP through all the images
+                    //IF the animal variable = all
+                        //show all images
+                    //ELSE
+                        //IF the image has the same class as the animal variable 
+                            //show image
+                        //ELSE
+                            //hide image
  </script>
 
 </body>
