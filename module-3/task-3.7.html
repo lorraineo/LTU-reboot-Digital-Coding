@@ -101,14 +101,27 @@
                 
                 //LOOP through all the images
                     for (imageCounter = 0; imageCounter < images.length; imageCounter++);
+                    
                     //IF the animal variable = all
+                    var currentImage = images[imageCounter];
+                    if(animal == 'all'){
                         //show all images
+                        currentImage.style.display = 'block';
+                    }
+                        
                     //ELSE
+                    else{
                         //IF the image has the same class as the animal variable 
+                        if(currentImage.classList.contains(animal)){
                             //show image
+                            currentImage.style.display = 'block';
+                        }
                         //ELSE
+                        else {
                             //hide image
-
+                            currentImage.style.display = 'none';
+                        }
+                    }
             });
         }
  </script>
