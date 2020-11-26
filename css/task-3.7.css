@@ -31,3 +31,7 @@ img{
 .filterContainer{
     margin-bottom:50px;
 }
+
+.selectedFilter{
+    border:1px solid red
+}
